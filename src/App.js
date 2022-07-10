@@ -1,23 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
-
+import "./App.css";
+import Home from "./pages/Home";
+import { Routes, Route } from "react-router-dom";
+import AboutMovie from "./pages/AboutMovie";
+import BookingSummary from "./pages/BookingSummary";
+import BookMovie from "./pages/BookMovie";
+import SelectingSeat from "./pages/SelectingSeat";
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='App'>
+      <Routes>
+        <Route exact path='/' element={<Home />} />
+        <Route exact path='/aboutMovie/:id' element={<AboutMovie />} />
+        <Route exact path='/bookingSummary' element={<BookingSummary />} />
+        <Route exact path='/bookmovie/:id' element={<BookMovie />} />
+        <Route
+          exact
+          path='/selectingSeat/:id/:time'
+          element={<SelectingSeat />}
+        />
+      </Routes>
     </div>
   );
 }

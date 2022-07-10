@@ -1,0 +1,90 @@
+.seat {
+  margin: 3px 5px;
+  border: none;
+  background-color: white;
+}
+.seat:hover {
+  background-color: rgb(9, 226, 9);
+}
+.businessContainer {
+  display: flex;
+  width: 90%;
+  margin: 0px 30px;
+}
+.SeatRow {
+  display: flex;
+}
+.rowTitle {
+  align-items: center;
+  display: flex;
+  margin: 0px 15px;
+}
+.seats {
+  margin-left: 10px;
+}
+/* platinum box */
+.platinumContainer {
+  display: flex;
+  width: 90%;
+  margin: 0px 30px;
+}
+.platinumSeatsRow {
+  display: flex;
+}
+.platinumSeatRight {
+  display: flex;
+  margin-left: 10px;
+}
+.platinumSeatLeft {
+  margin-left: 100px;
+}
+
+/* gold box */
+.goldContainer {
+  display: flex;
+  width: 90%;
+  margin: 0px 30px;
+}
+.goldSeatsRow {
+  display: flex;
+}
+.goldSeatRight {
+  display: flex;
+  margin-left: 10px;
+}
+.goldSeatLeft {
+  margin-left: 130px;
+}
+
+/* silver */
+/* gold box */
+.silverContainer {
+  display: flex;
+  width: 90%;
+  margin: 0px 30px;
+}
+.silverSeatsRow {
+  display: flex;
+}
+.silverSeatRight {
+  display: flex;
+  margin-left: 10px;
+}
+.silverSeatLeft {
+  margin-left: 130px;
+}
+/* price */
+.totalPrice {
+  display: flex;
+  justify-content: center;
+  background-color: gray;
+  margin-top: 5px;
+}
+.priceBtn {
+  padding: 20px;
+  margin: 20px 0px;
+  width: 30vw;
+  font-weight: 600;
+  font-size: 18px;
+  background-color: #06ffb0;
+}

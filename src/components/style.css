@@ -1,0 +1,352 @@
+/* navbar */
+.container {
+  display: flex;
+  height: 60px;
+  background-color: black;
+}
+.left {
+  flex: 3;
+  justify-content: flex-start;
+}
+.leftContainer {
+  display: flex;
+  margin: 10px 30px;
+}
+.logo {
+  margin: 10px 20px;
+  color: #06ffb0;
+  font-size: 20px;
+  font-family: "Montserrat", sans-serif;
+}
+.searchContainer {
+  width: 40%;
+  background-color: white;
+  height: 40px;
+}
+.searchLogo {
+  display: flex;
+  justify-content: flex-end;
+}
+.searchField input {
+  height: 35px;
+  width: 80%;
+  padding-left: 15px;
+  border: none;
+  outline: none;
+  background-color: white;
+  font-weight: 500;
+  font-size: 17px;
+}
+.right {
+  flex: 1;
+  justify-content: flex-end;
+}
+.rightContainer {
+  display: flex;
+  margin: 10px 30px;
+}
+.locationDropdown select {
+  height: 40px;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: black;
+  color: #06ffb0;
+}
+.location {
+}
+.signIn {
+  margin: 10px 20px;
+  width: 60px;
+}
+.signInLink {
+  text-decoration: none;
+  color: #06ffb0;
+}
+/* sidebar */
+.sidebar {
+  margin: 2px 20px;
+}
+.sidebarBtn {
+  border: none;
+  padding: 10px;
+  width: 35px;
+  background-color: black;
+  font-weight: 600;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.sidebarBtn:hover {
+  border-bottom: 1px solid black;
+  cursor: pointer;
+}
+.Sidebarcontent {
+  position: relative;
+  top: -5px;
+}
+.sidebarList {
+  position: absolute;
+  list-style: none;
+  background-color: #06ffb0;
+  width: 10vw;
+  height: 60vh;
+  right: -51px;
+}
+.sidebarList li {
+  margin-top: 30px;
+  margin-right: 2px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+}
+
+/* recomended movies */
+.recommendedMovieContainer {
+  width: 100%;
+}
+.recommendedMovieHeading {
+  margin: 40px 7vw;
+}
+.recommendedMovieContent {
+  width: 90%;
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 5vw;
+}
+
+/* recommended movie card */
+.movieCardContainer {
+  display: flex;
+  width: 20vw;
+  margin: 0px 10px;
+}
+.movieCardContent {
+  height: 90vh;
+}
+.movieCardImages {
+  margin: 10px 20px;
+  width: 20vw;
+}
+.movieCardImage {
+  width: 100%;
+  height: 70vh;
+  object-fit: cover;
+}
+.movieCardRating {
+  flex-direction: column;
+  padding-left: 20px;
+  margin: 10px 0px;
+}
+.movieName {
+  flex-direction: column;
+  padding-left: 20px;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+/* about Movie */
+
+.movieDetailsContainer {
+  display: flex;
+  flex-wrap: wrap;
+}
+.movieDetailsTop {
+  display: flex;
+  height: 80vh;
+  width: 100%;
+}
+.movieDetailsLeft {
+  display: flex;
+  flex: 2;
+}
+.movieDetailsLeftInfo {
+}
+.movieDetailsTitle {
+  font-weight: 700;
+  font-size: 24px;
+}
+.movieDetailsRating {
+  display: flex;
+  flex-direction: row;
+}
+.movieDetailsUserRating {
+}
+.movieDetailsLanguage {
+  margin-bottom: 15px;
+}
+.movieDetailsDuration {
+  margin-bottom: 10px;
+}
+.movieDetailsBookTicket {
+}
+.bookTicket {
+  padding: 15px;
+  background-color: #06ffb0;
+  font-weight: 600;
+}
+.movieDetailsRight {
+  flex: 2;
+  width: 70vw;
+  height: 100%;
+  position: relative;
+}
+.movieDetailsBackdropImages {
+  width: 10px;
+}
+.movieDetailsBackdropImage {
+  object-fit: cover;
+  width: 49vw;
+  height: 80vh;
+}
+.movieDetailsShare {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+}
+.movieDetailsBottom {
+  height: 40vh;
+}
+.movieDetailsBottom h1 {
+  margin: 20px 40px;
+}
+
+.movieDetailsBottom p {
+  margin: 20px 40px;
+}
+
+/* book movie details */
+.bookMovieContainer {
+  height: 100vh;
+  width: 100%;
+}
+.bookMovieContent {
+  height: 100%;
+}
+.bookMovieDetails {
+  display: flex;
+  background-color: gainsboro;
+}
+.bookMovieTitle {
+  flex: 3;
+  margin: 30px 50px;
+  font-size: 24px;
+  font-weight: 600;
+}
+.bookMovieReleaseDate {
+  display: flex;
+  flex: 1;
+  margin: 30px 50px;
+}
+.bookMovieDateAndFilter {
+  display: flex;
+  background-color: ghostwhite;
+}
+.bookMovieDate {
+  flex: 3;
+  display: flex;
+  margin: 10px 30px;
+}
+.bookMovieDateOne {
+  margin: 0px 20px;
+  border: 1px solid salmon;
+  padding: 5px;
+  border-radius: 10px;
+}
+.bookMovieDateTwo {
+  margin: 0px 20px;
+  border: 1px solid salmon;
+  padding: 5px;
+  border-radius: 10px;
+}
+.bookMovieDateThree {
+  margin: 0px 20px;
+  border: 1px solid salmon;
+  padding: 5px;
+  border-radius: 10px;
+}
+.bookMoviefilter {
+  flex: 1;
+  margin: 20px 0px;
+}
+.bookMovieLanguage {
+}
+.bookMovieTimeSelection {
+  display: flex;
+}
+.bookMovieTimeAvailable {
+  flex: 1;
+  display: flex;
+}
+.available {
+  margin: 20px 20px;
+}
+.fast-filling {
+  margin: 20px 20px;
+}
+.bookMovieTime {
+  flex: 3;
+}
+.bookMovieHallName {
+  margin: 20px 20px;
+}
+.bookMovieTimes {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40vh;
+}
+.bookMovieTimeOne {
+  margin: 0px 30px;
+}
+.bookMovieButton {
+  padding: 20px;
+  background-color: white;
+  color: black;
+  border-radius: 10px;
+}
+.bookMovieButton:hover {
+  background-color: black;
+  color: white;
+}
+
+/* Selecting Seat */
+.selectingSeatContainer {
+  width: 100%;
+  min-height: 110vh;
+  display: flex;
+  justify-content: center;
+}
+.selectingSeatMovieDetails {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin: 20px 0px;
+  font-size: 18px;
+  font-weight: 600;
+}
+.selectingSeat {
+  background-color: aqua;
+  width: 70%;
+}
+.selectingGroup {
+  display: flex;
+  margin: 30px;
+}
+.selectingseatScreen {
+  display: flex;
+  justify-content: center;
+  margin-top: 80px;
+}
+
+.screen {
+  width: 435px;
+  height: 10px;
+  border-radius: 40%;
+  background-color: black;
+}
+
+.titleLine {
+  width: 80%;
+  margin-left: 15px;
+  color: black;
+}
